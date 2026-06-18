@@ -744,3 +744,14 @@ em.click {
   .project { grid-template-columns: 1fr; }
   .project__cover { width: 100%; }
 }
+select {
+    color: white; /* or your normal text color */
+}
+
+select:invalid {
+    color: #888; /* Gray placeholder text */
+}
+
+option {
+    color: black; /* Dropdown items */
+}
